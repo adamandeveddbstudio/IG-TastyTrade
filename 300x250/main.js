@@ -19,7 +19,7 @@ function init() {
 function animate() {
   tl.set(["#main_content"], { autoAlpha: 1, rotationZ: 0.1, force3D: true });
   tl.set(["#logo"], { autoAlpha: 0 });
-  tl.set(["#faceR"], { x: '-85%' });
+  tl.set(["#faceR"], { x: '-85%', autoAlpha: 1 });
   tl.set(["#left_content"], { x: '50%' });
   tl.set(["#left_content", "#right_content"], { scale: 1.3, });
   tl.set(["#h1L"], { x: '100%' });
