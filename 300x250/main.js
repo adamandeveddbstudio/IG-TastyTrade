@@ -27,7 +27,7 @@ function animate() {
   tl.set(["#legal"], { y: 80 });
   tl.set(['#h2', '#phn'], { x: '100%' })
 
-  tl.addLabel('frame_1', 0)
+  tl.addLabel('frame_1', 0.5)
     .to('#right_content', 0.7, { width: '50%', ease: Power2.easeOut }, "frame_1")
     .to(['#faceR'], 0.7, { x: -2, ease: Power2.easeOut }, "frame_1+=0.1")
     .to(['#left_content'], 0.7, { x: 0, ease: Power2.easeOut }, "frame_1+=0.3")
