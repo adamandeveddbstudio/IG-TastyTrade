@@ -22,9 +22,9 @@ function animate() {
   tl.set(["#faceR"], { x: '-85%', autoAlpha: 1 });
   tl.set(["#left_content"], { x: '50%' });
   tl.set(["#left_content", "#right_content"], { scale: 1.6, });
-  tl.set(["#h1L"], { x: '100%' });
-  tl.set(["#h1R"], { x: '-100%' });
-  tl.set(["#legal"], { y: 53 });
+  tl.set(["#h1L"], { x: '100%', autoAlpha: 1 });
+  tl.set(["#h1R"], { x: '-100%', autoAlpha: 1 });
+  tl.set(["#legal"], { y: 53, autoAlpha: 1 });
   tl.set(['#h2', '#phn'], { x: '100%' })
 
   tl.addLabel('frame_1', 0.5)
