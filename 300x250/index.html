@@ -9,6 +9,9 @@
   <link rel="stylesheet" type="text/css" href="styles.css" />
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
   <title></title>
+  <script type="text/javascript">
+    var clickTag = "https://www.google.com";
+  </script>
 </head>
 
 <body>
@@ -42,6 +45,12 @@
     <!--end main_container-->
   </div>
   <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript">
+    var clickArea = document.getElementById("default_exit");
+    clickArea.onclick = function () {
+      window.open(clickTag, "_blank");
+    };
+  </script>
 </body>
 
 </html>
