@@ -57,12 +57,17 @@ function animate() {
 function endTime() {
   // show total banner animation time in browser console.
   var endTime = new Date();
+  setRollover();
   // console.log( "Animation duration: " + (endTime - startTime) / 1000 + " seconds");
 }
 
 // CTA grow on hover
 
 function setRollover() {
+  var clickArea = document.getElementById("default_exit");
+  clickArea.onclick = function () {
+    window.open(clickTag, "_blank");
+  };
   // clickArea.addEventListener("mouseover", default_over, false);
   // clickArea.addEventListener("mouseout", default_out, false);
 }
