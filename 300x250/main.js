@@ -21,18 +21,18 @@ function animate() {
   tl.set(["#logo"], { autoAlpha: 0 });
   tl.set(["#faceR"], { x: '-85%', autoAlpha: 1 });
   tl.set(["#left_content"], { x: '50%' });
-  tl.set(["#left_content", "#right_content"], { scale: 1.3, });
+  tl.set(["#left_content", "#right_content"], { scale: 1.6, });
   tl.set(["#h1L"], { x: '100%' });
   tl.set(["#h1R"], { x: '-100%' });
-  tl.set(["#legal"], { y: 80 });
+  tl.set(["#legal"], { y: 53 });
   tl.set(['#h2', '#phn'], { x: '100%' })
 
   tl.addLabel('frame_1', 0.5)
     .to('#right_content', 0.7, { width: '50%', ease: Power2.easeOut }, "frame_1")
     .to(['#faceR'], 0.7, { x: -2, ease: Power2.easeOut }, "frame_1+=0.1")
     .to(['#left_content'], 0.7, { x: 0, ease: Power2.easeOut }, "frame_1+=0.3")
-    .to(['#left_content', '#right_content'], 1, { scale: 1, ease: Power2.easeOut }, "frame_1+=1")
     .to('#legal', 1, { autoAlpha: 1, y: 0, ease: Power2.easeOut }, "frame_1+=1")
+    .to(['#left_content', '#right_content'], 1, { scale: 1, ease: Power2.easeOut }, "frame_1+=1")
     .to(['#h1L', '#h1R'], 0.5, { x: 0, ease: Power2.easeOut }, "frame_1+=1.5")
 
 
