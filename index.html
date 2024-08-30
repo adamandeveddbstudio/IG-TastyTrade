@@ -22,10 +22,18 @@
 
     .header .logo {
       text-align: center;
+      width: 100px;
+      height: 60px;
+      background: red;
+      position: relative;
     }
 
     .header .logo img {
-      width: 150px;
+      width: 230px;
+      left: 50%;
+      top: -45px;
+      position: absolute;
+      transform: translateX(-50%);
     }
 
     .all_box {
@@ -74,9 +82,9 @@
 </head>
 
 <body>
-  <div class="header pt-2 d-flex flex-column flex-wrap justify-content-center align-items-center">
-    <div class="logo me-4">
-      <!-- <img src="https://mma.prnewswire.com/media/1226903/Eckrich_Logo.jpg?p=facebook" alt=""> -->
+  <div class="header pt-2 mb-4 d-flex flex-column flex-wrap justify-content-center align-items-center">
+    <div class="logo">
+      <img src="./300x250/images/logoNew.png" alt="">
     </div>
     <h1>IG Tasty Trade Banners</h1>
   </div>
