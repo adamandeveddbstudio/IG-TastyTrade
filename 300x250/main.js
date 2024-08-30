@@ -27,8 +27,8 @@ function animate() {
   tl.set(['#h2', '#phn'], { x: '100%' })
 
   tl.addLabel('frame_1', 0.5)
-    .to('#right_content', 0.7, { width: '50%', ease: Power2.easeOut }, "frame_1")
-    .to(['#faceR'], 0.7, { x: -2, ease: Power2.easeOut }, "frame_1+=0.1")
+    .to('#right_content', 0.7, { width: 'calc(50% - 2px)', ease: Power2.easeOut }, "frame_1")
+    .to(['#faceR'], 0.7, { x: 0, ease: Power2.easeOut }, "frame_1+=0.1")
     .to(['#left_content'], 0.7, { x: 0, ease: Power2.easeOut }, "frame_1+=0.3")
     .to('#legal', 1, { autoAlpha: 1, y: 0, ease: Power2.easeOut }, "frame_1+=1")
     .to(['#left_content', '#right_content'], 1, { scale: 1, ease: Power2.easeOut }, "frame_1+=1")
@@ -38,7 +38,7 @@ function animate() {
     .to('#right_content', 0.5, { width: '35%', ease: Power1.easeOut }, "frame_1+=3")
     .to(['#faceL', '#faceR'], 0.5, { x: 43, ease: Power1.easeOut }, "frame_1+=3")
     .to('#right_content', 1, { width: '100%', ease: Power2.easeOut }, "frame_1+=3.5")
-    .to(['#faceL', '#faceR'], 1, { x: '-50%', ease: Power2.easeOut }, "frame_1+=3.5")
+    .to(['#faceL', '#faceR'], 1, { x: '-51%', ease: Power2.easeOut }, "frame_1+=3.5")
 
 
   tl.addLabel('frame_2', 6)
