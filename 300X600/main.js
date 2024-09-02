@@ -18,9 +18,9 @@ function init() {
 function animate() {
   tl.set(["#main_content"], { autoAlpha: 1, rotationZ: 0.1, force3D: true });
   tl.set(["#logo"], { autoAlpha: 0 });
-  tl.set(["#faceR"], { x: '-90%', autoAlpha: 1 });
+  tl.set(["#faceR"], { x: '-95%', autoAlpha: 1 });
   tl.set(["#left_content"], { x: '50%' });
-  tl.set(["#left_content", "#right_content"], { scale: 1.6, });
+  tl.set(["#left_content", "#right_content"], { rotationX: 0.1, scale: 1.3, });
   tl.set(["#h1L"], { x: '100%', autoAlpha: 1 });
   tl.set(["#h1R"], { x: '-100%', autoAlpha: 1 });
   tl.set(["#legal"], { y: '100%', autoAlpha: 1 });
