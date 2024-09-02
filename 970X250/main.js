@@ -20,7 +20,7 @@ function animate() {
   tl.set(["#logo"], { autoAlpha: 0 });
   tl.set(["#faceR"], { x: '-85%', autoAlpha: 1 });
   tl.set(["#left_content"], { x: '50%' });
-  tl.set(["#left_content", "#right_content"], { rotationZ: 0.1,scale: 1.4, });
+  tl.set(["#left_content", "#right_content"], { rotationX: 0.1,scale: 1.4, });
   tl.set(["#h1L"], { x: '100%', autoAlpha: 1 });
   tl.set(["#h1R"], { x: '-100%', autoAlpha: 1 });
   tl.set(["#legal"], { y: 53, autoAlpha: 1 });
