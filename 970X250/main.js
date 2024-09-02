@@ -36,9 +36,10 @@ function animate() {
 
 
     .to('#right_content', 0.5, { width: '35%', ease: Power1.easeOut }, "frame_1+=3")
-    .to(['#faceL', '#faceR'], 0.5, { x: 43, ease: Power1.easeOut }, "frame_1+=3")
+    // .to(['#faceL', '#faceR'], 0.5, { x: 144, ease: Power1.easeOut }, "frame_1+=3")
+    .to(['#faceL', '#faceR'], 0.5, { x: '15%', ease: Power1.easeOut }, "frame_1+=3")
     .to('#right_content', 1, { width: '100%', ease: Power2.easeOut }, "frame_1+=3.5")
-    .to(['#faceL', '#faceR'], 1, { x: '-51%', ease: Power2.easeOut }, "frame_1+=3.5")
+    .to(['#faceL', '#faceR'], 1, { x: '-50%', ease: Power2.easeOut }, "frame_1+=3.5")
 
 
   tl.addLabel('frame_2', 6)

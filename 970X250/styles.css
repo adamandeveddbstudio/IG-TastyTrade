@@ -76,7 +76,7 @@ img {
 
 #right_content {
   background-color: #e61d1e;
-  background: linear-gradient(90deg, #ffffff00 0.1px, #e61d1e 0.2px);
+  background: linear-gradient(90deg, #ffffff00 0.25px, #e61d1e 0.25px);
   transform-origin: left;
 }
 
@@ -101,33 +101,33 @@ img {
 #h2,
 #h3 {
   text-align: center;
-  padding-top: 13px;
-  font-size: 19px;
-  letter-spacing: -0.1px;
+  padding-top: 17px;
+  font-size: 22px;
+  letter-spacing: 0.2px;
   line-height: 1.15;
 }
 
 .legal {
   background-color: #000;
   font-size: 12px;
-  letter-spacing: 0.25px;
+  letter-spacing: 0.2px;
   line-height: 0.95;
   text-align: center;
-  padding: 3px;
+  padding: 4px;
 }
 
 .cta {
   text-align: center;
   transform-origin: center;
   background: #fff;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1;
   letter-spacing: -0.2px;
   transform: translateX(-50%);
   left: 50%;
-  top: 139px;
-  width: 124px;
-  height: 38px;
+  top: 153px;
+  width: 154px;
+  height: 46px;
   border-radius: 50px;
   display: flex;
   justify-content: center;
