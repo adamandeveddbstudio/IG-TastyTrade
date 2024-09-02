@@ -25,12 +25,21 @@ img {
   opacity: 0;
 }
 
+.left-15n{
+  left: -15px;
+}
+.right-15n{
+  right: -10px;
+}
+.faceimage-width {
+  width: 330px;
+}
 .full-width {
   width: 300px;
 }
 
 .full-height {
-  height: 250px;
+  height: 600px;
 }
 
 .left-0 {
@@ -101,8 +110,8 @@ img {
 #h2,
 #h3 {
   text-align: center;
-  padding-top: 13px;
-  font-size: 19px;
+  padding-top: 108px;
+  font-size: 27px;
   letter-spacing: -0.1px;
   line-height: 1.15;
 }
@@ -113,7 +122,7 @@ img {
   letter-spacing: 0.25px;
   line-height: 0.95;
   text-align: center;
-  padding: 3px;
+  padding: 11px;
 }
 
 .cta {
@@ -125,7 +134,7 @@ img {
   letter-spacing: -0.2px;
   transform: translateX(-50%);
   left: 50%;
-  top: 139px;
+  top: 288px;
   width: 124px;
   height: 38px;
   border-radius: 50px;
