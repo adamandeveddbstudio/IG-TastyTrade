@@ -76,7 +76,7 @@ img {
 
 #right_content {
   background-color: #e61d1e;
-  background: linear-gradient(90deg, #ffffff00 0.25px, #e61d1e 0.25px);
+  background: linear-gradient(90deg, #ffffff00 0.4px, #e61d1e 0.45px);
   transform-origin: left;
 }
 

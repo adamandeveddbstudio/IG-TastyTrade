@@ -20,14 +20,14 @@ function animate() {
   tl.set(["#logo"], { autoAlpha: 0 });
   tl.set(["#faceR"], { x: '-85%', autoAlpha: 1 });
   tl.set(["#left_content"], { x: '50%' });
-  tl.set(["#left_content", "#right_content"], { scale: 1.6, });
+  tl.set(["#left_content", "#right_content"], { rotationZ: 0.1,scale: 1.4, });
   tl.set(["#h1L"], { x: '100%', autoAlpha: 1 });
   tl.set(["#h1R"], { x: '-100%', autoAlpha: 1 });
   tl.set(["#legal"], { y: 53, autoAlpha: 1 });
   tl.set(['#h2', '#phn'], { x: '100%' })
 
   tl.addLabel('frame_1', 0.5)
-    .to('#right_content', 0.7, { width: 'calc(50% - 0.5px)', ease: Power2.easeOut }, "frame_1")
+    .to('#right_content', 0.7, { width: 'calc(50% - 0px)', ease: Power2.easeOut }, "frame_1")
     .to(['#faceR'], 0.7, { x: 0, ease: Power2.easeOut }, "frame_1+=0.1")
     .to(['#left_content'], 0.7, { x: 0, ease: Power2.easeOut }, "frame_1+=0.3")
     .to('#legal', 1, { autoAlpha: 1, y: 0, ease: Power2.easeOut }, "frame_1+=1")
