@@ -26,11 +26,11 @@ img {
 }
 
 .full-width {
-  width: 970px;
+  width: 728px;
 }
 
 .full-height {
-  height: 250px;
+  height: 90px;
 }
 
 .left-0 {
@@ -76,7 +76,7 @@ img {
 
 #right_content {
   background-color: #e61d1e;
-  background: linear-gradient(90deg, #ffffff00 0.4px, #e61d1e 0.45px);
+  background: linear-gradient(90deg, #ffffff00 0.1px, #e61d1e 0.2px);
   transform-origin: left;
 }
 
@@ -101,33 +101,33 @@ img {
 #h2,
 #h3 {
   text-align: center;
-  top: 17px;
-  font-size: 22px;
-  letter-spacing: 0.2px;
-  line-height: 1.15;
+  top: 1px;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 1;
 }
 
 .legal {
   background-color: #000;
-  font-size: 12px;
-  letter-spacing: 0.2px;
+  font-size: 10px;
+  letter-spacing: -0.27px;
   line-height: 0.95;
   text-align: center;
-  padding: 4px;
+  padding: 1.5px;
+  padding-bottom: 3.5px;
 }
 
 .cta {
   text-align: center;
   transform-origin: center;
   background: #fff;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 1;
   letter-spacing: -0.2px;
-  transform: translateX(-50%);
-  left: 50%;
-  top: 153px;
-  width: 154px;
-  height: 46px;
+  right: 37px;
+  top: 19px;
+  width: 124px;
+  height: 38px;
   border-radius: 50px;
   display: flex;
   justify-content: center;

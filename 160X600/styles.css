@@ -25,12 +25,24 @@ img {
   opacity: 0;
 }
 
+.left-neg {
+  left: -65px;
+}
+
+.right-neg {
+  right: -65px;
+}
+
+.faceimage-width {
+  width: 290px;
+}
+
 .full-width {
-  width: 970px;
+  width: 160px;
 }
 
 .full-height {
-  height: 250px;
+  height: 600px;
 }
 
 .left-0 {
@@ -76,7 +88,7 @@ img {
 
 #right_content {
   background-color: #e61d1e;
-  background: linear-gradient(90deg, #ffffff00 0.4px, #e61d1e 0.45px);
+  background: linear-gradient(90deg, #ffffff00 0.3px, #e61d1e 0.3px);
   transform-origin: left;
 }
 
@@ -101,33 +113,34 @@ img {
 #h2,
 #h3 {
   text-align: center;
-  top: 17px;
-  font-size: 22px;
-  letter-spacing: 0.2px;
-  line-height: 1.15;
+  top: 90px;
+  font-size: 13px;
+  letter-spacing: -0.3px;
+  line-height: 1.2;
 }
 
 .legal {
   background-color: #000;
   font-size: 12px;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.25px;
   line-height: 0.95;
   text-align: center;
-  padding: 4px;
+  padding: 6px;
+  padding-top: 11px;
 }
 
 .cta {
   text-align: center;
   transform-origin: center;
   background: #fff;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 1;
   letter-spacing: -0.2px;
   transform: translateX(-50%);
   left: 50%;
-  top: 153px;
-  width: 154px;
-  height: 46px;
+  top: 259px;
+  width: 124px;
+  height: 38px;
   border-radius: 50px;
   display: flex;
   justify-content: center;

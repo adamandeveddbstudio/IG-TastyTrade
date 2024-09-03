@@ -23,7 +23,7 @@ function animate() {
   tl.set(["#left_content", "#right_content"], { rotationX: 0.1, scale: 1.3, });
   tl.set(["#h1L"], { x: '100%', autoAlpha: 1 });
   tl.set(["#h1R"], { x: '-100%', autoAlpha: 1 });
-  tl.set(["#legal"], { y: 53, autoAlpha: 1 });
+  tl.set(["#legal"], { y: '100%', autoAlpha: 1 });
   tl.set(['#h2', '#phn'], { x: '100%' })
 
   tl.addLabel('frame_1', 0.5)

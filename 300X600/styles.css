@@ -25,10 +25,10 @@ img {
   opacity: 0;
 }
 
-.left-15n{
+.left-neg{
   left: -15px;
 }
-.right-15n{
+.right-neg{
   right: -10px;
 }
 .faceimage-width {
@@ -110,7 +110,7 @@ img {
 #h2,
 #h3 {
   text-align: center;
-  padding-top: 108px;
+  top: 108px;
   font-size: 27px;
   letter-spacing: -0.1px;
   line-height: 1.15;
@@ -146,7 +146,7 @@ img {
 #default_exit {
   cursor: pointer;
   background: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
-  z-index: 200;
+  z-index: 100;
 }
 
 .border_h {

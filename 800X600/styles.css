@@ -26,11 +26,11 @@ img {
 }
 
 .full-width {
-  width: 970px;
+  width: 800px;
 }
 
 .full-height {
-  height: 250px;
+  height: 600px;
 }
 
 .left-0 {
@@ -101,33 +101,33 @@ img {
 #h2,
 #h3 {
   text-align: center;
-  top: 17px;
-  font-size: 22px;
-  letter-spacing: 0.2px;
-  line-height: 1.15;
+  top: 58px;
+  font-size: 40px;
+  letter-spacing: 0.1px;
+  line-height: 1.2;
 }
 
 .legal {
   background-color: #000;
-  font-size: 12px;
-  letter-spacing: 0.2px;
-  line-height: 0.95;
+  font-size: 21px;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
   text-align: center;
-  padding: 4px;
+  padding: 10px;
 }
 
 .cta {
   text-align: center;
   transform-origin: center;
   background: #fff;
-  font-size: 15px;
+  font-size: 25px;
   line-height: 1;
   letter-spacing: -0.2px;
   transform: translateX(-50%);
   left: 50%;
-  top: 153px;
-  width: 154px;
-  height: 46px;
+  top: 240px;
+  width: 244px;
+  height: 73px;
   border-radius: 50px;
   display: flex;
   justify-content: center;

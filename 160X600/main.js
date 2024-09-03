@@ -20,7 +20,7 @@ function animate() {
   tl.set(["#logo"], { autoAlpha: 0 });
   tl.set(["#faceR"], { x: '-95%', autoAlpha: 1 });
   tl.set(["#left_content"], { x: '50%' });
-  tl.set(["#left_content", "#right_content"], { rotationX: 0.1, scale: 1.3, });
+  tl.set(["#left_content", "#right_content"], { rotationX: 0.1, scale: 1.5 });
   tl.set(["#h1L"], { x: '100%', autoAlpha: 1 });
   tl.set(["#h1R"], { x: '-100%', autoAlpha: 1 });
   tl.set(["#legal"], { y: '100%', autoAlpha: 1 });
@@ -35,10 +35,10 @@ function animate() {
     .to(['#h1L', '#h1R'], 0.5, { x: 0, ease: Power2.easeOut }, "frame_1+=1.5")
 
 
-    .to('#right_content', 0.5, { width: '35%', ease: Power1.easeOut }, "frame_1+=3")
-    .to(['#faceL', '#faceR'], 0.5, { x: 51, ease: Power1.easeOut }, "frame_1+=3")
+    .to('#right_content', 0.5, { width: '28%', ease: Power1.easeOut }, "frame_1+=3")
+    .to(['#faceL', '#faceR'], 0.5, { x: '12.5%', ease: Power1.easeOut }, "frame_1+=3")
     .to('#right_content', 1, { width: '100%', ease: Power2.easeOut }, "frame_1+=3.5")
-    .to(['#faceL', '#faceR'], 1, { x: '-44%', ease: Power2.easeOut }, "frame_1+=3.5")
+    .to(['#faceL', '#faceR'], 1, { x: '-27.25%', ease: Power2.easeOut }, "frame_1+=3.5")
 
 
   tl.addLabel('frame_2', 6)
