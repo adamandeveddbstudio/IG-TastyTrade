@@ -23,7 +23,6 @@ function animate() {
   tl.set(["#h1L"], { x: '100%', autoAlpha: 1 });
   tl.set(["#h1R"], { x: '-100%', autoAlpha: 1 });
   tl.set(["#legal"], { y: '100%', autoAlpha: 1 });
-  // tl.set(['#h2', '#phn'], { x: '100%' })
 
   tl.addLabel('frame_1', 0.5)
     .to('#right_content', 0.5, { width: '50%', ease: Power2.easeOut }, "frame_1")

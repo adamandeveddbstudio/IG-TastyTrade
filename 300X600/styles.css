@@ -25,15 +25,18 @@ img {
   opacity: 0;
 }
 
-.left-neg{
+.left-neg {
   left: -15px;
 }
-.right-neg{
+
+.right-neg {
   right: -10px;
 }
+
 .faceimage-width {
   width: 330px;
 }
+
 .full-width {
   width: 300px;
 }
