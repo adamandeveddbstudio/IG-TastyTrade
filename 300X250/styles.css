@@ -76,7 +76,7 @@ img {
 
 #right_content {
   background-color: #e61d1e;
-  background: linear-gradient(90deg, #ffffff00 0.1px, #e61d1e 0.2px);
+  background: linear-gradient(90deg, #ffffff00 1.7px, #e61d1e 1.8px);
   transform-origin: left;
 }
 
@@ -132,6 +132,9 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.cta span{
+  padding-bottom: 1px;
 }
 
 #default_exit {

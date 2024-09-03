@@ -17,41 +17,42 @@ function init() {
 
 function animate() {
   tl.set(["#main_content"], { autoAlpha: 1, rotationZ: 0.1, force3D: true });
-  tl.set(["#logo"], { autoAlpha: 0 });
-  tl.set(["#faceR"], { x: '-85%', autoAlpha: 1 });
+  tl.set(["#faceR"], { x: '-100%', autoAlpha: 1 });
   tl.set(["#left_content"], { x: '50%' });
   tl.set(["#left_content", "#right_content"], { scale: 1.6, });
   tl.set(["#h1L"], { x: '100%', autoAlpha: 1 });
   tl.set(["#h1R"], { x: '-100%', autoAlpha: 1 });
   tl.set(["#legal"], { y: '100%', autoAlpha: 1 });
-  tl.set(['#h2', '#phn'], { x: '100%' })
+  // tl.set(['#h2', '#phn'], { x: '100%' })
 
   tl.addLabel('frame_1', 0.5)
-    .to('#right_content', 0.7, { width: 'calc(50% - 2px)', ease: Power2.easeOut }, "frame_1")
-    .to(['#faceR'], 0.7, { x: 0, ease: Power2.easeOut }, "frame_1+=0.1")
+    .to('#right_content', 0.5, { width: '50%', ease: Power2.easeOut }, "frame_1")
+    .to(['#faceR'], 0.45, { x: '-35%', ease: Power2.easeOut }, "frame_1")
+    .to(['#faceR'], 0.7, { x: 0, ease: Power2.easeOut }, "frame_1+=0.3")
     .to(['#left_content'], 0.7, { x: 0, ease: Power2.easeOut }, "frame_1+=0.3")
     .to('#legal', 1, { autoAlpha: 1, y: 0, ease: Power2.easeOut }, "frame_1+=1")
-    .to(['#left_content', '#right_content'], 1, { scale: 1, ease: Power2.easeOut }, "frame_1+=1")
+    .to(['#left_content', '#right_content'], 1, { scale: 1, ease: Power2.easeOut }, "frame_1+=1.1")
     .to(['#h1L', '#h1R'], 0.5, { x: 0, ease: Power2.easeOut }, "frame_1+=1.5")
 
 
     .to('#right_content', 0.5, { width: '35%', ease: Power1.easeOut }, "frame_1+=3")
-    .to(['#faceL', '#faceR'], 0.5, { x: 43, ease: Power1.easeOut }, "frame_1+=3")
-    .to('#right_content', 1, { width: '100%', ease: Power2.easeOut }, "frame_1+=3.5")
-    .to(['#faceR'], 1, { x: '-51%', ease: Power2.easeOut }, "frame_1+=3.5")
-    .to(['#faceL'], 1, { x: '-50%', ease: Power2.easeOut }, "frame_1+=3.5")
+    .to(['#faceL', '#faceR'], 0.5, { x: '15%', ease: Power1.easeOut }, "frame_1+=3")
+    .to('#right_content', 0.5, { width: '70%', ease: Power1.easeInOut }, "frame_1+=3.5")
+    .to(['#faceL', '#faceR'], 0.5, { x: '-20%', ease: Power1.easeInOut }, "frame_1+=3.5")
+    .to('#right_content', 0.5, { width: '45%', ease: Power1.easeOutIn }, "frame_1+=4")
+    .to(['#faceL', '#faceR'], 0.5, { x: '5%', ease: Power1.easeOutIn }, "frame_1+=4")
+    .to('#right_content', 1, { width: '150%', ease: Power1.easeIn }, "frame_1+=4.5")
+    .to(['#faceL', '#faceR',], 1, { x: '-100%', ease: Power1.easeIn }, "frame_1+=4.5")
+    .to(['#h1R',], 0.5, { autoAlpha: 0, ease: Power1.easeIn }, "frame_1+=4.75")
+    .to(['#right_content'], 0, { width: '100%' }, "frame_1+=5.5")
 
 
-  tl.addLabel('frame_2', 6)
-    .to(['#faceR', '#h1R'], 0.7, { x: '-100%', autoAlpha: 0, ease: Power2.easeOut }, "frame_2")
-    .to(['#h2', '#phn'], 0.7, { x: 0, autoAlpha: 1, ease: Power2.easeOut }, "frame_2")
+  tl.addLabel('frame_2', 6.5)
+    .to(['#h2', '#phn'], 0.5, { autoAlpha: 1, ease: Power2.easeOut }, "frame_2+=0")
+  tl.addLabel('frame_3', 10.5)
+    .to(['#h2', '#phn'], 0.5, { autoAlpha: 0, ease: Power2.easeOut }, "frame_3+=0")
+    .to(['#h3', '#logo', '#cta'], 0.5, { autoAlpha: 1, ease: Power2.easeOut }, 'frame_3+=0.5')
 
-  tl.addLabel('frame_3', 10)
-    // .to(['#h2', '#phn', '#legal'], 0.7, { x: '-100%', autoAlpha: 0, ease: Power2.easeOut }, "frame_3")
-    // .to(['#h3'], 0.7, { x: 0, autoAlpha: 1, ease: Power1.easeInOut }, "frame_3")
-    .staggerTo(['#h2', '#phn'], 0.5, { autoAlpha: 0, ease: Power2.easeOut }, 0.5, "frame_3")
-    .staggerTo(['#h3', '#logo', '#cta'], 0.5, { autoAlpha: 1, ease: Power2.easeOut }, 0.5, 'frame_3+=1')
-  // .staggerFrom(['#h1 span', '#h2 span'], 1, { y: '+=50', ease: Power2.easeOut }, 0.3, 'frame_1+=2')
 
 }
 
