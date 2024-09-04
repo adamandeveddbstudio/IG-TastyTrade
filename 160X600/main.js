@@ -24,7 +24,6 @@ function animate() {
   tl.set(["#h1L"], { x: '100%', autoAlpha: 1 });
   tl.set(["#h1R"], { x: '-100%', autoAlpha: 1 });
   tl.set(["#legal"], { y: '100%', autoAlpha: 1 });
-  tl.set(['#h2', '#phn'], { x: '100%' })
 
   tl.addLabel('frame_1', 0.5)
     .to('#right_content', 0.5, { width: '50%', ease: Power2.easeOut }, "frame_1")
@@ -37,21 +36,21 @@ function animate() {
     .to(['#h1L', '#h1R'], 0.5, { x: 0, ease: Power2.easeOut }, "frame_1+=1.5")
 
 
-    .to('#right_content', 0.5, { width: '33.5%', ease: Power1.easeOut }, "frame_1+=3")
-    .to(['#faceL', '#faceR'], 0.5, { x: '15%', ease: Power1.easeOut }, "frame_1+=3")
-    .to('#right_content', 0.5, { width: '72%', ease: Power1.easeNone }, "frame_1+=3.5")
-    .to(['#faceL', '#faceR'], 0.5, { x: '-20%', ease: Power1.easeNone }, "frame_1+=3.5")
-    .to('#right_content', 0.5, { width: '44.5%', ease: Power1.easeNone }, "frame_1+=4")
-    .to(['#faceL', '#faceR'], 0.5, { x: '5%', ease: Power1.easeNone }, "frame_1+=4")
-    .to('#right_content', 1, { width: '160%', ease: Power1.easeIn }, "frame_1+=4.5")
-    .to(['#faceL', '#faceR',], 1, { x: '-100%', ease: Power1.easeIn }, "frame_1+=4.5")
-    .to(['#h1R',], 0.5, { autoAlpha: 0, ease: Power1.easeIn }, "frame_1+=4.75")
-    .to(['#right_content'], 0, { width: '100%' }, "frame_1+=5.5")
+    .to('#right_content', 1, { width: 'calc(50% - 40px)', ease: Power1.easeOut }, "frame_1+=3")
+    .to(['#faceL', '#faceR'], 1, { x: '40px', ease: Power1.easeOut }, "frame_1+=3")
+    .to('#right_content', 1, { width: 'calc(50% + 40px)', ease: Power1.easeNone }, "frame_1+=4")
+    .to(['#faceL', '#faceR'], 1, { x: '-40px', ease: Power1.easeNone }, "frame_1+=4")
+    .to('#right_content', 1, { width: 'calc(50% - 30px)', ease: Power1.easeNone }, "frame_1+=5")
+    .to(['#faceL', '#faceR'], 1, { x: '30px', ease: Power1.easeNone }, "frame_1+=5")
+    .to('#right_content', 1.5, { width: '191.5%', ease: Power1.easeNone }, "frame_1+=6")
+    .to(['#faceL', '#faceR',], 1.5, { x: '-78%', ease: Power1.easeNone }, "frame_1+=6")
+    .to(['#right_content'], 0, { width: '100%' }, "frame_1+=7.5")
+    .to(['#h1R',], 0.5, { autoAlpha: 0, ease: Power1.easeIn }, "frame_1+=7.5")
 
 
-  tl.addLabel('frame_2', 6.5)
+  tl.addLabel('frame_2', 8.5)
     .to(['#h2', '#phn'], 0.5, { autoAlpha: 1, ease: Power2.easeOut }, "frame_2+=0")
-  tl.addLabel('frame_3', 10.5)
+  tl.addLabel('frame_3', 12.5)
     .to(['#h2', '#phn'], 0.5, { autoAlpha: 0, ease: Power2.easeOut }, "frame_3+=0")
     .to(['#h3', '#logo', '#cta'], 0.5, { autoAlpha: 1, ease: Power2.easeOut }, 'frame_3+=0.5')
   //   .to('#right_content', 0.7, { width: 'calc(50% + 1.5px)', ease: Power2.easeOut }, "frame_1")
