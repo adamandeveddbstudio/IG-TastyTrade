@@ -18,8 +18,8 @@ function init() {
 function animate() {
   tl.set(["#main_content"], { autoAlpha: 1, rotationZ: 0.1, force3D: true });
   tl.set(["#logo"], { autoAlpha: 0 });
-  tl.set(["#faceR"], { x: '-85%', autoAlpha: 1 });
-  tl.set(["#left_content"], { x: '50%' });
+  tl.set(["#faceR"], { x: '-100%', autoAlpha: 1 });
+  tl.set(["#left_content"], { x: '5%' });
   tl.set(["#left_content", "#right_content"], { rotationX: 0.1, scale: 1.3, });
   tl.set(["#h1L"], { x: '100%', autoAlpha: 1 });
   tl.set(["#h1R"], { x: '-100%', autoAlpha: 1 });
@@ -27,7 +27,7 @@ function animate() {
 
   tl.addLabel('frame_1', 0.5)
     .to('#right_content', 0.5, { width: '50%', ease: Power2.easeOut }, "frame_1")
-    .to(['#faceR'], 0.45, { x: '-35%', ease: Power2.easeOut }, "frame_1")
+    .to(['#faceR'], 0.45, { x: '-5%', ease: Power2.easeOut }, "frame_1")
     .to(['#faceR'], 0.7, { x: 0, ease: Power2.easeOut }, "frame_1+=0.3")
     .to(['#left_content'], 0.7, { x: 0, ease: Power2.easeOut }, "frame_1+=0.3")
     .to('#legal', 1, { autoAlpha: 1, y: 0, ease: Power2.easeOut }, "frame_1+=1")
