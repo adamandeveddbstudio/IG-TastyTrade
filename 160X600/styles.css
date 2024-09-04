@@ -25,14 +25,6 @@ img {
   opacity: 0;
 }
 
-.left-neg {
-  left: -63.5px;
-}
-
-.right-neg {
-  right: -66.5px;
-}
-
 .faceimage-width {
   width: 290px;
 }
@@ -145,6 +137,10 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.cta span {
+  padding-bottom: 1px;
 }
 
 #default_exit {

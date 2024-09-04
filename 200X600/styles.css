@@ -147,6 +147,10 @@ img {
   align-items: center;
 }
 
+.cta span {
+  padding-bottom: 1px;
+}
+
 #default_exit {
   cursor: pointer;
   background: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");

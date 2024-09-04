@@ -35,21 +35,21 @@ function animate() {
     .to(['#h1L', '#h1R'], 0.5, { x: 0, ease: Power2.easeOut }, "frame_1+=1.5")
 
 
-    .to('#right_content', 0.5, { width: '45%', ease: Power1.easeOut }, "frame_1+=3")
-    .to(['#faceL', '#faceR'], 0.5, { x: '5%', ease: Power1.easeOut }, "frame_1+=3")
-    .to('#right_content', 0.5, { width: '55%', ease: Power1.easeNone }, "frame_1+=3.5")
-    .to(['#faceL', '#faceR'], 0.5, { x: '-5%', ease: Power1.easeNone }, "frame_1+=3.5")
-    .to('#right_content', 0.5, { width: '47.5%', ease: Power1.easeNone }, "frame_1+=4")
-    .to(['#faceL', '#faceR'], 0.5, { x: '2.5%', ease: Power1.easeNone }, "frame_1+=4")
-    .to('#right_content', 1, { width: '150%', ease: Power1.easeIn }, "frame_1+=4.5")
-    .to(['#faceL', '#faceR',], 1, { x: '-100%', ease: Power1.easeIn }, "frame_1+=4.5")
-    .to(['#h1R',], 0.5, { autoAlpha: 0, ease: Power1.easeIn }, "frame_1+=4.75")
-    .to(['#right_content'], 0, { width: '100%' }, "frame_1+=5.5")
+    .to('#right_content', 1, { width: '45%', ease: Power1.easeOut }, "frame_1+=3")
+    .to(['#faceL', '#faceR'], 1, { x: '5%', ease: Power1.easeOut }, "frame_1+=3")
+    .to('#right_content', 1, { width: '55%', ease: Power1.easeNone }, "frame_1+=4")
+    .to(['#faceL', '#faceR'], 1, { x: '-5%', ease: Power1.easeNone }, "frame_1+=4")
+    .to('#right_content', 1, { width: '47.5%', ease: Power1.easeNone }, "frame_1+=5")
+    .to(['#faceL', '#faceR'], 1, { x: '2.5%', ease: Power1.easeNone }, "frame_1+=5")
+    .to('#right_content', 1.5, { width: '150%', ease: Power1.easeIn }, "frame_1+=6")
+    .to(['#faceL', '#faceR',], 1.5, { x: '-100%', ease: Power1.easeIn }, "frame_1+=6")
+    .to(['#h1R',], 0.5, { autoAlpha: 0, ease: Power1.easeIn }, "frame_1+=7.5")
+    .to(['#right_content'], 0, { width: '100%' }, "frame_1+=8")
 
 
-  tl.addLabel('frame_2', 6.5)
+  tl.addLabel('frame_2', 8.5)
     .to(['#h2', '#phn'], 0.5, { autoAlpha: 1, ease: Power2.easeOut }, "frame_2+=0")
-  tl.addLabel('frame_3', 10.5)
+  tl.addLabel('frame_3', 12.5)
     .to(['#h2', '#phn'], 0.5, { autoAlpha: 0, ease: Power2.easeOut }, "frame_3+=0")
     .to(['#h3', '#logo', '#cta'], 0.5, { autoAlpha: 1, ease: Power2.easeOut }, 'frame_3+=0.5')
 
