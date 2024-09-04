@@ -26,11 +26,11 @@ img {
 }
 
 .left-neg {
-  left: -65px;
+  left: -63.5px;
 }
 
 .right-neg {
-  right: -65px;
+  right: -66.5px;
 }
 
 .faceimage-width {
@@ -88,7 +88,7 @@ img {
 
 #right_content {
   background-color: #e61d1e;
-  background: linear-gradient(90deg, #ffffff00 0.3px, #e61d1e 0.3px);
+  background: linear-gradient(90deg, #ffffff00 0.2px, #e61d1e 0.2px);
   transform-origin: left;
 }
 
