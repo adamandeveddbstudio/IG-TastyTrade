@@ -97,14 +97,33 @@ img {
 }
 
 #h1L,
-#h1R,
-#h2,
-#h3 {
+#h1R {
   text-align: center;
   top: 1px;
   font-size: 16px;
   letter-spacing: 0px;
   line-height: 1;
+}
+
+#h2,
+#h3 {
+  transform: translateY(-50%);
+  top: 41%;
+  left: 10px;
+  width: 500px;
+  text-align: center;
+  padding: 0 10px;
+}
+#h4{
+  transform: translateY(-50%);
+  top: 41%;
+  left: 15px;
+  text-align: center;
+}
+
+#phn {
+  left: 30%;
+  top: -12px;
 }
 
 .legal {

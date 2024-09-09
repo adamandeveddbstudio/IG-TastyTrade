@@ -36,12 +36,12 @@ function animate() {
     .to(['#h1L', '#h1R'], 0.5, { x: 0, ease: Power2.easeOut }, "frame_1+=1.5")
 
 
-    .to('#right_content', 1, { width: 'calc(50% - 40px)', ease: Power1.easeOut }, "frame_1+=3")
-    .to(['#faceL', '#faceR'], 1, { x: '40px', ease: Power1.easeOut }, "frame_1+=3")
-    .to('#right_content', 1, { width: 'calc(50% + 40px)', ease: Power1.easeNone }, "frame_1+=4")
-    .to(['#faceL', '#faceR'], 1, { x: '-40px', ease: Power1.easeNone }, "frame_1+=4")
-    .to('#right_content', 1, { width: 'calc(50% - 30px)', ease: Power1.easeNone }, "frame_1+=5")
-    .to(['#faceL', '#faceR'], 1, { x: '30px', ease: Power1.easeNone }, "frame_1+=5")
+    // .to('#right_content', 1, { width: 'calc(50% - 40px)', ease: Power1.easeOut }, "frame_1+=3")
+    // .to(['#faceL', '#faceR'], 1, { x: '40px', ease: Power1.easeOut }, "frame_1+=3")
+    // .to('#right_content', 1, { width: 'calc(50% + 40px)', ease: Power1.easeNone }, "frame_1+=4")
+    // .to(['#faceL', '#faceR'], 1, { x: '-40px', ease: Power1.easeNone }, "frame_1+=4")
+    // .to('#right_content', 1, { width: 'calc(50% - 30px)', ease: Power1.easeNone }, "frame_1+=5")
+    // .to(['#faceL', '#faceR'], 1, { x: '30px', ease: Power1.easeNone }, "frame_1+=5")
     .to('#right_content', 1.5, { width: '192%', ease: Power1.easeNone }, "frame_1+=6")
     .to(['#faceL', '#faceR',], 1.5, { x: '-92%', ease: Power1.easeNone }, "frame_1+=6")
     .to(['#right_content'], 0, { width: '100%' }, "frame_1+=7.5")

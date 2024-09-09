@@ -103,7 +103,8 @@ img {
 #h1L,
 #h1R,
 #h2,
-#h3 {
+#h3,
+#h4 {
   text-align: center;
   top: 13px;
   font-size: 19px;
@@ -117,7 +118,7 @@ img {
   letter-spacing: 0.25px;
   line-height: 0.95;
   text-align: center;
-  padding: 3px;
+  padding: 6.5px 5px 7.5px;
 }
 
 .cta {
