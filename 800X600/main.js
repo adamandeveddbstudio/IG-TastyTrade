@@ -19,7 +19,7 @@ function animate() {
   tl.set(["#main_content"], { autoAlpha: 1, rotationZ: 0.1, force3D: true });
   tl.set(["#logo"], { autoAlpha: 0 });
   tl.set(["#faceR"], { x: '-100%', autoAlpha: 1 });
-  tl.set(["#faceL"], { x: '100px', autoAlpha: 1 });
+  tl.set(["#faceL"], { x: '100%', autoAlpha: 1 });
   tl.set(["#left_content"], { width: '0%' });
   tl.set(["#left_content", "#right_content"], { rotationX: 0.1, scale: 1.3, });
   tl.set(["#h1L"], { x: '100%', autoAlpha: 1 });
@@ -28,6 +28,7 @@ function animate() {
 
   tl.addLabel('frame_1', 0.5)
     .to('#left_content', 0.7, { width: '50%', ease: Power2.easeOut }, "frame_1")
+    .to(['#faceL'], 0.45, { x: '30%', ease: Power2.easeOut }, "frame_1")
     .to(['#faceR'], 0.45, { x: '-30%', ease: Power2.easeOut }, "frame_1")
     .to(['#faceL'], 0.7, { x: -1, ease: Power2.easeOut }, "frame_1+=0.3")
     .to(['#faceR'], 0.7, { x: -1, ease: Power2.easeOut }, "frame_1+=0.3")
