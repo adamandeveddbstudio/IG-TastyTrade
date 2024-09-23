@@ -70,14 +70,14 @@ img {
 
 #left_content {
   background-color: #fff;
-  /* transform-origin: right; */
+  background: linear-gradient(-90deg, #ffffff00 0.4px, #fff 0.45px);
+  transform-origin: right;
 }
 
 
 #right_content {
   background-color: #e61d1e;
-  background: linear-gradient(90deg, #ffffff00 0.4px, #e61d1e 0.45px);
-  transform-origin: left;
+  /* transform-origin: left; */
 }
 
 .text_red {
@@ -116,7 +116,7 @@ img {
   letter-spacing: -0.5px;
   line-height: 24.5px;
   text-align: center;
-  padding: 5px 10px 7px;
+  padding: 6px 10px 9px;
 }
 .legal sup{
   font-size: 10px;

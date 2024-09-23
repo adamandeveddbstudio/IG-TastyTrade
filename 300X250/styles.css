@@ -70,18 +70,17 @@ img {
 
 #left_content {
   background-color: #fff;
-  /* transform-origin: right; */
+  background: linear-gradient(-90deg, #ffffff00 0.3px, #fff 0.3px);
+  transform-origin: right;
 }
 
 
 #right_content {
   background-color: #e61d1e;
-  background: linear-gradient(90deg, #ffffff00 0.3px, #e61d1e 0.3px);
-  transform-origin: left;
 }
 
 #faceR {
-  right: 1.75px
+  right: 2px
 }
 
 .text_red {

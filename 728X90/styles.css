@@ -70,14 +70,14 @@ img {
 
 #left_content {
   background-color: #fff;
-  /* transform-origin: right; */
+  background: linear-gradient(-90deg, #ffffff00 0px, #fff 0.1px);
+  transform-origin: right;
 }
 
 
 #right_content {
   background-color: #e61d1e;
-  background: linear-gradient(90deg, #ffffff00 0px, #e61d1e 0.1px);
-  transform-origin: left;
+  /* transform-origin: left; */
 }
 
 .text_red {
