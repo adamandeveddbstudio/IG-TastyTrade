@@ -99,6 +99,7 @@ img {
   font-family: "MatterRegular";
 }
 
+
 #h1L,
 #h1R,
 #h2,
@@ -110,13 +111,21 @@ img {
   letter-spacing: -0.1px;
   line-height: 1.2;
 }
-#h2 sup{
+
+#h1L,
+#h1R {
+  left: -4.5px;
+}
+
+#h2 sup {
   font-size: 8px;
 }
-#h4{
+
+#h4 {
   top: 70px;
   font-size: 22px;
 }
+
 .legal {
   background-color: #000;
   font-size: 14px;
@@ -125,11 +134,13 @@ img {
   text-align: center;
   padding: 7px;
 }
-.legal sup{
+
+.legal sup {
   font-size: 6px;
   position: relative;
   top: -2px;
 }
+
 .cta {
   text-align: center;
   transform-origin: center;
