@@ -16,7 +16,7 @@ function init() {
 }
 
 function animate() {
-  tl.set(["#main_content"], { autoAlpha: 1, rotationZ: 0.1, force3D: true });
+  tl.set(["#main_content"], { autoAlpha: 1, rotationZ: 0, force3D: true });
   tl.set(["#faceR"], { x: '-100%', autoAlpha: 1 });
   tl.set(["#faceL"], { x: "100%", autoAlpha: 1 });
   tl.set(["#left_content"], { width: '0%' });
