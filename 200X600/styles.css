@@ -183,3 +183,9 @@ img {
 ::-moz-focus-inner {
   border: 0;
 }
+
+#logo{
+  width: 124px;
+  top: 406px;
+  left: 38px;
+}

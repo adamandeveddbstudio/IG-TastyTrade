@@ -171,3 +171,8 @@ img {
 ::-moz-focus-inner {
   border: 0;
 }
+#logo{
+  width: 351px;
+  left: 224px;
+  top: 410px;
+}
