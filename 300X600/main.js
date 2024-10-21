@@ -21,7 +21,7 @@ function animate() {
   tl.set(["#faceR"], { x: '-116%', right: -16, scale:1.4, top:'-93px', autoAlpha: 1 });
   tl.set(["#faceL"], { scale:1.4, top:'-93px',x:"100%", autoAlpha: 1 });
   tl.set(["#left_content"], { width: '0%' });
-  tl.set(["#left_content", "#right_content"], { rotationX: 0.1, scale: 1.3, });
+  tl.set(["#left_content", "#right_content"], { rotationX: 0, scale: 1.3, });
   tl.set(["#h1L"], { x: '100%', autoAlpha: 1 });
   tl.set(["#h1R"], { x: '-100%', autoAlpha: 1 });
   tl.set(["#legal"], { y: '100%', autoAlpha: 1 });

@@ -21,7 +21,7 @@ function animate() {
   tl.set(["#faceR"], { x: '-100%', right: -65, autoAlpha: 1 });
   tl.set(["#faceL"], { left: "100%", autoAlpha: 1 });
   tl.set(["#left_content"], { width: '0%' });
-  tl.set(["#left_content", "#right_content"], { rotationX: 0.1, scale: 1.5 });
+  tl.set(["#left_content", "#right_content"], { rotationX: 0, scale: 1.5 });
   tl.set(["#h1L"], { x: '100%', autoAlpha: 1 });
   tl.set(["#h1R"], { x: '-100%', autoAlpha: 1 });
   tl.set(["#legal"], { y: '100%', autoAlpha: 1 });

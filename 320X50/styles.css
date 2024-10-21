@@ -25,16 +25,12 @@ img {
   opacity: 0;
 }
 
-.faceimage-width {
-  width: 330px;
-}
-
 .full-width {
-  width: 300px;
+  width: 320px;
 }
 
 .full-height {
-  height: 600px;
+  height: 50px;
 }
 
 .left-0 {
@@ -71,18 +67,17 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-#main_content{
-  background-color: #e61d1e;
-}
+
 #left_content {
   background-color: #fff;
-  background: linear-gradient(-90deg, #ffffff00 0.3px, #fff 0.3px);
-  transform-origin: right;
+  /* transform-origin: right; */
 }
 
 
 #right_content {
   background-color: #e61d1e;
+  background: linear-gradient(90deg, #ffffff00 0px, #e61d1e 0.1px);
+  transform-origin: left;
 }
 
 .text_red {
@@ -102,52 +97,74 @@ img {
 }
 
 #h1L,
-#h1R,
+#h1R {
+  display: flex;
+  justify-content: center;
+  gap: 122px;
+  top: 12px;
+  font-size: 13px;
+  letter-spacing: 0px;
+  line-height: 1;
+}
+
+#h1L div,
+#h1R div {
+  width: auto;
+  text-align: center;
+  margin-left: 4px;
+  margin-right: 0px;
+}
+
 #h2,
 #h3,
 #h4 {
+  top: 12px;
+  left: 59px;
+  font-size: 12.7px;
+  line-height: 0.85;
+  width: auto;
   text-align: center;
-  top: 68px;
-  font-size: 27px;
-  letter-spacing: -0.1px;
-  line-height: 1.15;
 }
 
-#h2 sup {
-  font-size: 9px;
+#h3{
+  left: 44px;
+}
+#h4 {
+  left: 40px;
 }
 
 .legal {
   background-color: #000;
-  font-size: 16px;
-  letter-spacing: 0.25px;
-  line-height: 17.3px;
-  text-align: center;
-  padding: 5px 11px;
+  font-size: 9.5px;
+  letter-spacing: 0px;
+  line-height: 1;
+  text-align: left;
+  padding: 1px 5px;
 }
 
 .legal sup {
-  font-size: 7px;
-  position: relative;
-  top: -2px;
+  font-size: 6px;
 }
 
 .cta {
   text-align: center;
   transform-origin: center;
   background: #fff;
-  font-size: 14px;
+  font-size: 8px;
   line-height: 1;
-  letter-spacing: -0.2px;
-  transform: translateX(-50%);
-  left: 50%;
-  top: 273px;
-  width: 141px;
-  height: 36px;
+  letter-spacing: -0.3px;
+  right: 100px;
+  top: 12px;
+  width: 79px;
+  height: 26px;
   border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.cta span {
+  padding-bottom: 1px;
 }
 
 #default_exit {
@@ -174,9 +191,4 @@ img {
 
 ::-moz-focus-inner {
   border: 0;
-}
-#logo{
-  width: 206px;
-  left: 47px;
-  top: 436px;
 }

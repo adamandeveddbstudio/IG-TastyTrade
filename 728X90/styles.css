@@ -67,7 +67,9 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+#main_content{
+  background-color: #e61d1e;
+}
 #left_content {
   background-color: #fff;
   background: linear-gradient(-90deg, #ffffff00 0px, #fff 0.1px);
